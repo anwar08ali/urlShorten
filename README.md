@@ -2,6 +2,10 @@
 
 This frontend project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Pre Requisite
+
+Node js v18.8.0
+
 ## Framework used
 
 React js, Node js, mongoDB Atlas and react-bootstrap for css styling

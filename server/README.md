@@ -2,6 +2,10 @@
 
 The API codes are implemented using Node js, express and mongoDB Atlas
 
+## Pre Requisite
+
+Node js v18.8.0
+
 ## Steps to download or clone in windows
 
 Create a directory in your local drive e.g urlShortener then open command prompt inside urlShortener folder
