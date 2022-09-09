@@ -6,9 +6,19 @@ This frontend project was bootstrapped with [Create React App](https://github.co
 
 Node js v18.8.0
 
-## Framework used
+## Tech Stack
 
-React js, Node js, mongoDB Atlas and react-bootstrap for css styling
+**Frontend:**
+
+![reactjs](https://img.shields.io/badge/React%20Js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
+![react-bootstrap](https://img.shields.io/badge/-React%20Bootstrap-61dafb?style=for-the-badge)&nbsp;
+
+**Backend:**
+
+![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
+![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
+![mongodb](https://img.shields.io/badge/MongoDB%20Atlas-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
 
 ## API service used
 
