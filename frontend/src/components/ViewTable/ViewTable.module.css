@@ -1,0 +1,8 @@
+.sub {
+  cursor: pointer;
+  color: var(--link-default-color);
+  text-decoration: underline;
+}
+.sub:hover {
+  color: var(--link-hover-color);
+}

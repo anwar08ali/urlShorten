@@ -5,7 +5,6 @@ const shortid = require("shortid");
 const cors = require("cors");
 require("dotenv").config();
 const port = process.env.port;
-const host = process.env.host;
 const bodyParser = require("body-parser"); //use to parse incoming request bodies
 const isURL = require("./helper/helper");
 const connectDB = require("./db");
@@ -59,5 +58,9 @@ app.get("/:shortUrlId", async (req, res) => {
   } catch (error) {
     return res.status(500).send("Error. Something went wrong...");
   }
+});
+//handling invalid routes
+app.get("*", function (req, res) {
+  res.status(404).send("Invalid route !!!");
 });
 app.listen(port, () => console.log("listening port " + port));

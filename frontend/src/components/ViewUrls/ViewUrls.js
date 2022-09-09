@@ -27,6 +27,7 @@ const ViewUrls = () => {
       console.log("error:", error);
     }
   };
+
   useEffect(() => {
     getUrlsAPIData();
   }, []);
@@ -41,7 +42,7 @@ const ViewUrls = () => {
     if (urlData && urlData.length > 0) {
       return (
         <div className={styles.tableWrapper}>
-          <ViewTable urlData={urlData} />
+          <ViewTable />
         </div>
       );
     } else {
